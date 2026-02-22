@@ -49,8 +49,6 @@ expense-tracker/
 ```
 
 ---
-### Home Page
-![Home Screen](./screenshots/home.png)
 
 ### Add Expense
 ![Add Expense](./screenshots/add_expense.png)
