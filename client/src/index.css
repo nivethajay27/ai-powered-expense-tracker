@@ -1,0 +1,73 @@
+/* index.css */
+
+/* Global resets */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fef6f0; /* light pastel peach */
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #5a4d4d; /* soft brown */
+}
+
+.card {
+  background-color: #fff7f0; /* pastel cream */
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  border: 1px solid #e0dcd7;
+  outline: none;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #ffb3a7;
+}
+
+button {
+  background-color: #ffd8d0; /* pastel pink */
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ffb3a7; /* darker pastel pink */
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  background-color: #ffece0; /* pastel orange */
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category {
+  font-size: 14px;
+  color: #5a4d4d;
+  font-style: italic;
+}
