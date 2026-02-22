@@ -63,8 +63,8 @@ expense-tracker/
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/YOUR_USERNAME/expense-tracker.git
-cd expense-tracker
+git clone https://github.com/nivethajay27/ai-powered-expense-tracker
+cd ai-powered-expense-tracker
 ```
 
 ---
