@@ -1,6 +1,6 @@
 # AI Smart Expense Tracker
 
-A simple full-stack **Expense Tracker** built using **React, Node.js, Express, and PostgreSQL** with **AI-based automatic expense categorization** using a free Hugging Face API.
+A simple full-stack **Expense Tracker** built using **React, Node.js, Express, and PostgreSQL** with **AI-based automatic expense categorization** using a Hugging Face API.
 
 ---
 
@@ -49,12 +49,17 @@ expense-tracker/
 ```
 
 ---
+### Home
+![Home](./screenshots/home.png)
 
-### Add Expense
-![Add Expense](./screenshots/add_expense.png)
+### Add Expense and AI Categorization
+![Add Expense and AI Categorization](./screenshots/expense_added.png)
 
-### AI Categorization
-![AI Categorization](./screenshots/ai_categorization.png)
+### Edit Expense
+![Expense Edit](./screenshots/expense_updated.png)
+
+### Delete Expense
+![Expense Delete](./screenshots/expense_deleted.png)
 
 ---
 

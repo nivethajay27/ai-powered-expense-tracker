@@ -1,38 +1,131 @@
-.App {
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #ebd8de; /* main bg color */
+  margin: 0;
+  padding: 0;
+  color: #3E2723; /* main text color */
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff8f0; /* soft container bg */
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+h1 {
+  text-align: center;
+  color: #3E2723;
+  margin-bottom: 1rem;
+}
+
+.message {
+  background-color: #ffe6e6; /* subtle pink for messages */
+  padding: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #3E2723;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.editing-form {
+  border: 2px solid #3E2723; /* highlight editing row with main color */
+  padding: 0.5rem;
+  border-radius: 12px;
+  background-color: #fff0f2; /* soft contrast */
+}
+
+.input {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #3E2723;
+  border-radius: 8px;
+  flex: 1 1 150px;
+}
+
+.btn {
+  background-color: #3E2723;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #F4C9D6;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #6a4f4b; /* darker shade for hover */
+  color: #fff8f0;
+}
+
+.expenses-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.expenses-table th,
+.expenses-table td {
+  border: 1px solid #ffe6e6;
+  padding: 0.75rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.expenses-table th {
+  background-color: #3E2723; /* heading background */
+  color: #f0e5e9; /* heading text */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.edit-btn {
+  background-color: #ffd6d6; /* soft contrast for edit */
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 0.25rem;
+  transition: all 0.2s ease;
+  color: #3E2723;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.edit-btn:hover {
+  background-color: #ffb6b6;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.delete-btn {
+  background-color: #ffccd5;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #3E2723;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete-btn:hover {
+  background-color: #ff99a5;
+  color: white;
+}
+
+.editing-row {
+  background-color: #fff0f2; /* soft highlight for editing row */
+  border-left: 4px solid #3E2723;
+  transition: all 0.3s ease;
 }
